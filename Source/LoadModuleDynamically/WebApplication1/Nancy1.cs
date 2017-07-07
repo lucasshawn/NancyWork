@@ -1,0 +1,16 @@
+﻿using Nancy;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace WebApplication1
+{
+    public class Nancy1 : NancyModule
+    {
+        public Nancy1()
+        {
+            Get("/Nancy1", _ => "Nancy1");
+        }
+    }
+}
