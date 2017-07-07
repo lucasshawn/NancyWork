@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <PostBuildEvent></PostBuildEvent>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Nancy" Version="2.0.0-barneyrubble" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Nancy3Shared\Nancy3Shared.csproj" />
+  </ItemGroup>
+
+</Project>
